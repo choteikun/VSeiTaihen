@@ -149,8 +149,8 @@
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Misc\ScriptableObjectUtility.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Wrappers\Misc\AlwaysFaceCamera.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Save System\Storers\DiskSavedGameDataStorer.cs" />
-    <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Save System\Savers\MultiEnabledSaver.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Lua\Lua Interpreter\Parser\Syntax\VarName.cs" />
+    <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Save System\Savers\MultiEnabledSaver.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Lua\Lua Interpreter\LuaValue\LuaNil.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Wrappers\Text\StringAsset.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\MVC\Sequencer\Commands\SequencerCommandAnimatorFloat.cs" />

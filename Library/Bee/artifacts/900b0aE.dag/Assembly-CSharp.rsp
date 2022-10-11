@@ -374,6 +374,16 @@
 "Assets/Koreographer/Demos/Scripts/MusicalImpulse.cs"
 "Assets/Koreographer/Demos/Scripts/TempoSwitch.cs"
 "Assets/Koreographer/Demos/Scripts/UIMessageSetter.cs"
+"Assets/Scripts/AudioSourceController.cs"
+"Assets/Scripts/BGScroll.cs"
+"Assets/Scripts/CharacterPanel.cs"
+"Assets/Scripts/IconDrop.cs"
+"Assets/Scripts/IconDropSpawner.cs"
+"Assets/Scripts/ObstacleSpawn.cs"
+"Assets/Scripts/OptionButton.cs"
+"Assets/Scripts/SceneLoader.cs"
+"Assets/Scripts/SliderCtrl.cs"
+"Assets/Scripts/TitleScaler.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

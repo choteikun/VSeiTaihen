@@ -377,6 +377,7 @@
 "Assets/Scripts/AudioSourceController.cs"
 "Assets/Scripts/BGScroll.cs"
 "Assets/Scripts/CharacterPanel.cs"
+"Assets/Scripts/GashaponPanel.cs"
 "Assets/Scripts/IconDrop.cs"
 "Assets/Scripts/IconDropSpawner.cs"
 "Assets/Scripts/ObstacleSpawn.cs"

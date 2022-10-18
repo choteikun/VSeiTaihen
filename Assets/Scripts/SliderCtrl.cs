@@ -18,6 +18,23 @@ public class SliderCtrl : MonoBehaviour
 
     private float moveSpeed = 0f;
 
+    private int testA=1;
+    private int TestA()
+    {
+        return testA;
+    }
+    private int TestA(int a, int b)
+    {
+        testA = a + b;
+        return testA;
+    }
+    
+    private void Start()
+    {
+        TestA(1, 2);
+        Debug.Log("testA = " + testA);
+    }
+
     public void OnPointerDown()
     {
         needMove = false;
@@ -25,27 +42,64 @@ public class SliderCtrl : MonoBehaviour
 
     public void OnPointerUp()
     {
-        Debug.Log("test");
         //判斷當前位於哪個區間，設置自動滑動至的位置
-        if (scrollbar.value <= 0.125f)
+        //if (scrollbar.value <= 0.125f)
+        //{
+        //    targetValue = 0;
+        //}
+        //else if (scrollbar.value <= 0.375f)
+        //{
+        //    targetValue = 0.25f;
+        //}
+        //else if (scrollbar.value <= 0.625f)
+        //{
+        //    targetValue = 0.5f;
+        //}
+        //else if (scrollbar.value <= 0.875f)
+        //{
+        //    targetValue = 0.75f;
+        //}
+        //else
+        //{
+        //    targetValue = 1f;
+        //}
+
+        //判斷當前位於哪個區間，設置自動滑動至的位置
+        if (scrollbar.value <= 0.08f)
         {
             targetValue = 0;
         }
-        else if (scrollbar.value <= 0.375f)
+        else if (scrollbar.value <= 0.205f)
+        {
+            targetValue = 0.125f;
+        }
+        else if (scrollbar.value <= 0.33f)
         {
             targetValue = 0.25f;
         }
-        else if (scrollbar.value <= 0.625f)
+        else if (scrollbar.value <= 0.455f)
+        {
+            targetValue = 0.375f;
+        }
+        else if (scrollbar.value <= 0.580f)
         {
             targetValue = 0.5f;
         }
-        else if (scrollbar.value <= 0.875f)
+        else if (scrollbar.value <= 0.705f)
         {
-            targetValue = 0.75f;
+            targetValue = 0.625f;
+        }
+        else if (scrollbar.value <= 0.83f)
+        {
+            targetValue = 0.750f;
+        }
+        else if (scrollbar.value <= 0.955f)
+        {
+            targetValue = 0.875f;
         }
         else
         {
-            targetValue = 1f;
+            targetValue = 0.875f;
         }
         needMove = true;
         moveSpeed = 0;

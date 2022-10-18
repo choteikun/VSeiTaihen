@@ -64,6 +64,7 @@
     <Compile Include="Assets\Koreographer\Demos\Scripts\ColorAdjuster.cs" />
     <Compile Include="Assets\Koreographer\Demos\Scripts\CubeScaler.cs" />
     <Compile Include="Assets\Scripts\BGScroll.cs" />
+    <Compile Include="Assets\Scripts\GashaponPanel.cs" />
     <Compile Include="Assets\Koreographer\Demos\Scripts\EmitParticlesOnSpan.cs" />
     <Compile Include="Assets\Scripts\IconDrop.cs" />
     <Compile Include="Assets\Koreographer\Demos\Scripts\DemoControlsUI.cs" />

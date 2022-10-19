@@ -15,7 +15,7 @@ public class IconDrop : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(new Vector3(0f, (0f - iconMoveSpeed) * Time.deltaTime, 0f), Space.World);
+        transform.Translate(new Vector3(0f, (150f - iconMoveSpeed) * Time.deltaTime, 0f), Space.World);
         if (transform.position.y <= -Screen.height/10)
         {
             Destroy(gameObject);
